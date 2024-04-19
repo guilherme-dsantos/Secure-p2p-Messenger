@@ -1,0 +1,10 @@
+
+keytool -keystore davidkeystore.jks -keyalg RSA -genkey -alias david
+
+keytool -import -v -trustcacerts -alias luis -file ..\Luis_cert\luis.cer -keystore davidtruststore.jks
+
+keytool -import -v -trustcacerts -alias server -file ..\server_tls\server.crt -keystore davidtruststore.jks
+
+keytool -export -alias verisignclass2g2ca -keystore /usr/java/jre/lib/security/cacerts -file /tmp/root.crt
+
+

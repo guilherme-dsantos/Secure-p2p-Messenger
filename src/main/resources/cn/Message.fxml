@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane minHeight="80.0" minWidth="420.0" prefHeight="80.0" prefWidth="420.0" style="-fx-background-color: #e3e5fc;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.MessageController">
+   <children>
+      <VBox fx:id="messagePane" maxWidth="280.0" prefHeight="60.0" prefWidth="280.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20px;" translateX="10.0" translateY="10.0">
+         <children>
+            <Label fx:id="label" maxHeight="1.7976931348623157E308" maxWidth="260.0" text="Label" translateX="10.0" translateY="10.0" wrapText="true" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
